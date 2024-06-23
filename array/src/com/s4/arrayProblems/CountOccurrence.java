@@ -25,6 +25,7 @@ public class CountOccurrence {
 		}
 		System.out.println("Which element count need to be done");
 		int element=scanner.nextInt();
+		
 		System.out.println("No of occurrence of"+" "+element+" "+"is"+" "+countOccurrence(element,arr));
 	}
 }
