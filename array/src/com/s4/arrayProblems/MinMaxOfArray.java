@@ -21,6 +21,7 @@ public class MinMaxOfArray {
 			if (arr[i]> max) {
 				max=arr[i];
 			}
+
 		}
 		return new int[] {min, max};
 		
