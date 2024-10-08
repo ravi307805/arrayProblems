@@ -16,7 +16,7 @@ public class SecondLargest {
 				secondLargest = largest;
 				largest = arr[i];
 			} else if (arr[i] > secondLargest && arr[i] != largest) {
-				secondLargest = arr[i];
+				secondLargest = arr[i];// Update secondLargest if it's not equal to largest
 			}
 		}
 		System.out.println(secondLargest);
